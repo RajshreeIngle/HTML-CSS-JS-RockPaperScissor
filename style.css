@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url('./fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('./fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: inherit;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(51, 93, 165) , rgb(255, 0, 183));
+    color: beige;
+   
+}
+
+.container {
+    text-align: center;
+    height: 100%;
+}
+
+.header {
+    color: rgb(238, 233, 238);
+    padding: 10px;
+    margin: 50px auto 50px auto;
+    font-family:'Nunito','Roboto-Bold',sans-serif;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: rgb(65, 134, 232);
+    width: 100px;
+    height: 50px;
+    /* pointer-events: ; */
+    cursor: pointer;
+    border: 2px solid aliceblue;
+    padding: 13px;
+    margin: 23px 12px 23px 12px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Nunito','Roboto-Medium',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+p{
+    padding: 10px;
+    margin: 23px;
+    font-family: 'Nunito','Roboto-Medium',Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#result {
+    margin: 23px;
+    display: none;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family:'Nunito', 'Roboto-Medium',Verdana, Geneva, Tahoma, sans-serif;
+    /* font-style: italic; */
+}
